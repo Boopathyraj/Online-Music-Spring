@@ -1,0 +1,33 @@
+body{
+background-image:url("images/f.jpg");
+margin-right:10px;
+}
+.box
+{
+    background-color: transparent;
+    width: 380px;
+    border-bottom:1px solid white;
+    padding: 3px;
+    position: absolute;
+    margin-top:40px;
+ }
+h2{
+color:white;}
+hr{
+boder-style:double;}
+table {
+    border-collapse: collapse;
+    width: 130%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(odd){background-color: #FAE5D3}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
